@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jackpot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" href="image/logo.png">
+</head>
+
+<body>
+    <!-- preloader  -->
+    <!-- navbar starts -->
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-nav">
+
+        <div class="container">
+
+            <div class="logo">
+                <a class="navbar-brand" href="#">
+                    <img src="image/logo.png" alt="logo" class="w-100">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="fa fa-bars"></span>
+ </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#plan">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#our-team">FAQ</a>
+                    </li>
+                </ul>
+                <a class="btn our-modal text-uppercase" href="#" data-toggle="modal" data-target="#signupmodal">Sign up</a>
+                <a class="btn our-modal text-uppercase" href="#" data-toggle="modal" data-target="#loginmodal">Log in</a>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- sign up modal starts -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="signupmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-form">
+                        <ul>
+                            <li class="form-fill">
+                                <input type="text" placeholder="your name">
+                            </li>
+                            <li class="form-fill">
+                                <input type="email" placeholder="your email address">
+                            </li>
+                            <li class="form-fill">
+                                <input type="password" placeholder="your password">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sign up modal ends-->
+    <!-- log inmodal starts -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-form">
+                        <ul>
+                            <li class="form-fill">
+                                <input type="email" placeholder="your email address">
+                            </li>
+                            <li class="form-fill">
+                                <input type="password" placeholder="your password">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- log in modal ends-->
+
+    <!-- banner -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="image-banner wow animate__animated animate__backInLeft">
+                        <img src="image/banner.png" alt="banner" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="jackpot">
+                        <span id="today-jackpot"></span>
+                        <h5 class="counter">777</h5>
+                        <p class="wow animate__animated animate__backInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    </div>
+                    <div class="play-now">
+                        <a href="#">play now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- banner ends -->
+    <div class="back-to-top">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+    <!-- about start -->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 ">
+                    <div class="about-content text-center wow animate__animated animate__backInLeft">
+                        <h2>01</h2>
+                        <h4>Register</h4>
+                        <p>Download the app and signup for account</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-content wow text-center animate__animated animate__backInDown">
+                        <h2>02</h2>
+                        <h4>Get Ready</h4>
+                        <p>Deposit & get ready for play betting</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-content text-center wow animate__animated animate__backInRight">
+                        <h2>03</h2>
+                        <h4>Enjoy</h4>
+                        <p>Betting more and more & enjoy game</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="games">
+        <div class="container">
+            <div class="games-text">
+                <h4>Related Games</h4>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-4 m-0">
+                    <div class="games-item">
+                        <img src="image/games1.jpg" alt="game1" class="w-100">
+                        <div class="games-overlay">
+                            <h5>Casino Game</h5>
+                            <div class="play-casino-game">
+                                <a href="#">play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="games-item">
+                        <img src="image/games2.jpg" alt="game1" class="w-100">
+                        <div class="games-overlay">
+                            <h5>Casino Game</h5>
+                            <div class="play-casino-game">
+                                <a href="#">play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="games-item">
+                        <img src="image/games3.jpg" alt="game1" class="w-100">
+                        <div class="games-overlay">
+                            <h5>Casino Game</h5>
+                            <div class="play-casino-game">
+                                <a href="#">play now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- games ends -->
+    <!-- free spin  starts -->
+    <section id="free-spin">
+        .
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="spin-image ml-0">
+                        <img src="image/free-spin.png" alt="free spin" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="unlock-spin">
+                        <h5>Unlock Free Spin</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit.</p>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt inrunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste.</p>
+                        <div class="claim-now">
+                            <a href="#">Claim Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- free spin  ends -->
+
+    <!-- Pricing Plan starts -->
+    <section id="price">
+        <div class="container">
+            <div class="price-text">
+                <h4>Our Pricing Plan</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+
+                    <div class="price-plan wow text-center animate__animated animate__backInLeft">
+                        <div class="Featured-text text-center">
+                            <h1>Featured</h1>
+                        </div>
+                        <h2>Trial Plan</h2>
+                        <h3>0.00</h3>
+                        <h6>USD/Per Month</h6>
+                        <p>Editable Game Timer</p>
+                        <p>Upto 10 Plyers at a Time</p>
+                        <p>Etitable Score Averaging</p>
+                        <p>Printable Result Page</p>
+                        <p>X</p>
+                        <p>X</p>
+                        <div class="choose-now">
+                            <a href="#">Choose now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+
+                    <div class="price-plan text-center wow animate__animated animate__backInDown">
+                        <div class="Featured-text text-center m-0">
+                            <h1>Featured</h1>
+                        </div>
+                        <h2>Standard Plan</h2>
+                        <h3>9.99</h3>
+                        <h6>USD/Per Month</h6>
+                        <p>Editable Game Timer</p>
+                        <p>Upto 10 Plyers at a Time</p>
+                        <p>Etitable Score Averaging</p>
+                        <p>Printable Result Page</p>
+                        <p>X</p>
+                        <p>X</p>
+                        <div class="choose-now">
+                            <a href="#">Choose now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+
+                    <div class="price-plan text-center wow animate__animated animate__backInRight">
+                        <div class="Featured-text text-center m-0">
+                            <h1>Featured</h1>
+                        </div>
+                        <h2>Platinum Plan</h2>
+                        <h3>99.99</h3>
+                        <h6>USD/Per Month</h6>
+                        <p>Editable Game Timer</p>
+                        <p>Upto 10 Plyers at a Time</p>
+                        <p>Etitable Score Averaging</p>
+                        <p>Printable Result Page</p>
+                        <p>X</p>
+                        <p>X</p>
+                        <div class="choose-now">
+                            <a href="#">Choose now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Pricing Plan ends -->
+
+    <!-- faq start -->
+    <section id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="faq-ask">
+                        <h1>Frequently Ask Questions</h1>
+
+                    </div>
+                    <div class="faq-ask-part">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <h2>01. How can play these games (for begineer)?</h2>
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fas fa-caret-down"></i>
+                                  </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <h2>02. If I play games and lost by any chance, How I’ll pay?</h2>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fas fa-caret-down"></i>
+                                  </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <h2>03. What are the benefits for gambiling?</h2>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="fas fa-caret-down"></i>
+                                  </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <h2>04. What are the benefits for gambiling?</h2>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                      <i class="fas fa-caret-down"></i>
+                                    </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incnt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="today-section">
+                        <div class="today-tournaments">
+                            <h1>Today’s Tournaments</h1>
+                        </div>
+                        <div class="today-tournaments-text">
+                            <h2>Time Remaining:</h2>
+                            <p id="demo"></p>
+                            <p id="demo1"></p>
+                            <p id="demo2"></p>
+                            <div class="today-tournaments-brif">
+                                <h3>01. Rozina Khan</h3><img src="image/flag1.png" alt=""><span>$365.25</span>
+                            </div>
+                            <div class="today-tournaments-brif">
+                                <h3>01. Rozina Khan</h3><img src="image/flag2.png" alt=""><span>$365.25</span>
+                            </div>
+                            <div class="today-tournaments-brif">
+                                <h3>01. Rozina Khan</h3><img src="image/flag3.png" alt=""><span>$365.25</span>
+                            </div>
+                            <div class="today-tournaments-brif">
+                                <h3>01. Rozina Khan</h3><img src="image/flag4.png" alt=""><span>$365.25</span>
+                            </div>
+                            <div class="today-tournaments-brif">
+                                <h3>01. Rozina Khan</h3><img src="image/flag5.png" alt=""><span>$365.25</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- faq ends -->
+    <!-- Payment Method starts -->
+    <section id="payment-method">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="subscribe-for-Offers">
+                        <h2>Subscribe for Offers</h2>
+                        <div class="subscribe-email m-0 p-0">
+                            <form action="form-inline">
+                                <input type="email" placeholder="Your e-mail here">
+                                <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="payment-system">
+                        <h2>Payment Method</h2>
+                        <div class="payment-system-img">
+                            <a href="">
+                                <img src="image/py1.png" alt="payment method">
+                            </a>
+                            <a href="">
+                                <img src="image/py2.png" alt="payment method">
+                            </a>
+                            <a href="">
+                                <img src="image/py3.png" alt="payment method">
+                            </a>
+                            <a href="">
+                                <img src="image/py4.png" alt="payment method">
+                            </a>
+                            <a href="">
+                                <img src="image/py5.png" alt="payment method">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Method ends -->
+    <!-- footer starts  -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about-jackpot">
+                        <h2>About Jackpot</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="important-links">
+                        <div class="important-links-text">
+                            <h2>Important Links</h2>
+                        </div>
+                        <div class="important-links-ul">
+                            <div class="important-links-ul-one">
+
+                                <ul>
+                                    <li><a href="">Live Score</a></li>
+                                    <li><a href="">How to Play</a></li>
+                                    <li><a href="">Tournaments</a></li>
+                                    <li><a href="">Registration Bonus</a></li>
+                                    <li><a href="">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="important-links-ul-two">
+                                <ul>
+                                    <li><a href="">Live Score</a></li>
+                                    <li><a href="">How to Play</a></li>
+                                    <li><a href="">Tournaments</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="security-info">
+                        <h2>Security Info</h2>
+                        <ul>
+                            <img src="image/footer1.png" alt="footer1">
+                            <li>Safe & Secure
+                                <p>Banking</p>
+                            </li>
+                            <img src="image/footer2.png" alt="footer1">
+                            <li>Total 203 Million
+                                <p>Registered Users</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-border">
+
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="col-lg-4 m-auto">
+                    <div class="footer-last-part">
+                        <h6>© 2018. All rights reserved by Designer</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js">
+    </script>
+</body>
+
+</html>
